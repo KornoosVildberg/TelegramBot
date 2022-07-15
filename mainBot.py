@@ -7,4 +7,4 @@ def start(message):
     bot.send_message(message.chat.id, '<b>Привет</b>', parse_mode='html')
 
 
-    bot.polling(non_stop=True)
+    bot.polling(none_stop=True)
